@@ -497,6 +497,7 @@ impl TursoDatabase {
                     "strict" => opts.with_strict(true),
                     "autovacuum" => opts.with_autovacuum(true),
                     "triggers" => opts.with_triggers(true),
+                    "attach" => opts.with_attach(true),
                     _ => opts,
                 };
             }
